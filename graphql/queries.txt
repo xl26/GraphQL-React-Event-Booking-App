@@ -1,0 +1,73 @@
+create event : 
+mutation {
+  createEvent(
+    eventInput: {title: "Test 1", imageUrl: "some-url", description: "Hello", price: 9.00, date: "2023-12-13T03:32:04.005Z",availability: 200}
+  ) {
+    title
+  }
+}
+
+book event: 
+mutation {
+	bookEvent( bookingInput: { eventId : "6584e83fd975045b256c212f", userId : "658495d81f500eb9ab8ef947",numberofSeats: 20}),
+  {
+    _id,
+    event{
+      title
+    }
+  }
+}
+
+cancel event :
+mutation {
+  cancelBooking( bookingId: "6584e8d0588ffd34c62d7296"), {
+    title
+  }
+}
+
+get events: 
+query {
+  events {
+    title,
+    _id
+  }
+}
+
+get bookings:
+query {
+  bookings {
+    _id,
+    event{
+      title
+    },
+    user{
+      email
+    }
+  }
+}
+
+create user: 
+mutation{
+  createUser(userInput: {name: "Sarthak",email: "rest@api.com", password: "Password@93"}) {
+    email
+  }
+}
+//////////////////////////////////
+// const res = await axios({
+    //   url: "http://localhost:3000/graphql",
+    //   method: "post",
+    //   headers: `Bearer ${localStorage.getItem("token")}`,
+    //   data: {
+    //     query: `
+    //     query {
+    //       bookings {
+    //         _id,
+    //         createdAt,
+    //         numberofSeats,
+    //         event{
+    //           title
+    //         }
+    //       }
+    //     }`,
+    //   },
+    // });
