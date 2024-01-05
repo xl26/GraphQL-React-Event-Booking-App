@@ -50,7 +50,7 @@ This project prioritizes showcasing the usage of GraphQL and backend functionali
 
 Contributions to improve GraphQL implementations, enhance backend functionalities, or improve overall application features are encouraged. Please follow standard guidelines for contributions and create pull requests.
 
-## Tutorial
+## Tutorial Help
 
 - GraphQL        : https://www.youtube.com/watch?v=7giZGFDGnkc
 - Firebase setup : https://www.youtube.com/watch?v=YOAeBSCkArA
