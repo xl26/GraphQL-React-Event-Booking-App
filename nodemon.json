@@ -1,8 +1,8 @@
 {
     "env" : {
-        "MONGO_USER": "smishra4",
-        "MONGO_PASSWORD" : "bv01EZr1PTz0edqA",
+        "MONGO_USER": "user-name",
+        "MONGO_PASSWORD" : "access-key",
         "MONGO_DB": "events-react-dev",
-        "SECRET_KEY": "mysupersecretkey"
+        "SECRET_KEY": "your-own-secret-key"
     }
 }
