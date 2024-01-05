@@ -2,11 +2,21 @@
 
 This React application is a demonstration of React Router, Tailwind CSS, and Firebase integration for image storage. The primary purpose of this app is to facilitate event creation and booking for specific dates. The backend is developed using Node.js and GraphQL.
 
+## Tech Used
+- ReactJS
+- NodeJs
+- GraphQL
+- Tailwind CSS
+- Firebase
+- MongoDB
+
+
 ## Features
 
 - **Event Management**: Users can create, view, and book events for specific dates.
 - **Image Storage**: Utilizes Firebase for storing event-related images.
 - **Backend API**: Built with Node.js and GraphQL for efficient data handling.
+- **Data Storage**: MongoDB for efficiency and scalability has been used.
 
 ## About GraphQL Integration
 
@@ -19,7 +29,8 @@ This application showcases the power of GraphQL for managing the backend API. Gr
 ## Caveats and Setup
 
 - **Firebase and MongoDB Credentials**: Users intending to fork this repository need Firebase and MongoDB credentials.
-  - Add these credentials to the root directory and the frontend folder.
+- For setting up firebase use the link ( https://firebase.google.com/docs/web/setup )
+- Add these credentials to the root directory and the frontend folder as firebase.js(frontend folder) and nodemon.js(main root directory).
 
 ## Note on Authentication
 
@@ -38,6 +49,11 @@ This project prioritizes showcasing the usage of GraphQL and backend functionali
 ## Contribution
 
 Contributions to improve GraphQL implementations, enhance backend functionalities, or improve overall application features are encouraged. Please follow standard guidelines for contributions and create pull requests.
+
+## Tutorial
+
+- GraphQL        : https://www.youtube.com/watch?v=7giZGFDGnkc
+- Firebase setup : https://www.youtube.com/watch?v=YOAeBSCkArA
 
 ## License
 
